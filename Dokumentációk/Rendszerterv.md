@@ -30,3 +30,8 @@ Frontend:Futó Richárd, Huszka Dániel, Biesz Dávid
 - A megrendelő szeretné még ha az alkalmazásban lévő szelvények ugyanazokat az adatokat tartalmazzák, amelyek a papíralapú szelvényen vannak.
 
 (lásd a követelményspecifikációban)
+
+## 7. Fizikai környezet
+- Az alkalmazást Windows operációs rendszerekre tervezzük
+- Nincs megvásárolt komponenseink
+- Fejlesztői eszközök: Visual Studio 2022, .NET5.0 Framework
