@@ -13,3 +13,9 @@ A Szerencsejáték Zrt. megbízottjaiként, azt a feladatot kaptuk, ami mindazon
 A projekt célja a szerencsejátékozás megkönnyítése, hogy bárki el tudja érni az otthonából.
 Az alkalmazásban lehetőség lesz kiválasztani, milyen lottó szelvényt kívánunk kitölteni, majd kiválasztani a számokat és beküldeni.
 Az alkalmazás fejlesztésekor az alkalmazás kinézete letisztult legyen, az egyszerűbb használat miatt.
+
+## 4. Funkcionális követelmények
+
+A megrendelő szeretné ha az alkalmazás könnyen érthető és használható legyen.
+Illetve hogy többfajta lottószelvény kitöltésére legyen lehetőség.
+A megrendelő szeretné még ha az alkalmazásban lévő szelvények ugyanazokat az adatokat tartalmazzák, amelyek a papíralapú szelvényen vannak.
