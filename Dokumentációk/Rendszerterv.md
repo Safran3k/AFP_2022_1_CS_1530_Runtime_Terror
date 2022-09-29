@@ -22,3 +22,11 @@ Megrendelő: Szerencsejáték Zrt.
 Backend: Futó Richárd, Huszka Dániel, Biesz Dávid
 
 Frontend:Futó Richárd, Huszka Dániel, Biesz Dávid
+
+## 6. Követelménylista
+
+- A megrendelő szeretné ha az alkalmazás könnyen érthető és használható legyen.
+- Illetve hogy többfajta lottószelvény kitöltésére legyen lehetőség.
+- A megrendelő szeretné még ha az alkalmazásban lévő szelvények ugyanazokat az adatokat tartalmazzák, amelyek a papíralapú szelvényen vannak.
+
+(lásd a követelményspecifikációban)
