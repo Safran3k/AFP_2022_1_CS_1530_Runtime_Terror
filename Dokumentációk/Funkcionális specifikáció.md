@@ -23,3 +23,7 @@ Lásd követelmény specifikáció.
 
 ## 6. Használati esetek
 Az alkalmazás azon célból készült hogy kiváltsa a papír alapú szerencsejátékot, szem előtt tartva a környezettudatosságot illetve a szelvények gyorsabb feladását.
+
+## 7. Képernyőtervek
+
+![https://i.imgur.com/5PUBKzL.png](https://i.imgur.com/5PUBKzL.png)
