@@ -19,3 +19,7 @@ Az alkalmazás fejlesztésekor az alkalmazás kinézete letisztult legyen, az eg
 A megrendelő szeretné ha az alkalmazás könnyen érthető és használható legyen.
 Illetve hogy többfajta lottószelvény kitöltésére legyen lehetőség.
 A megrendelő szeretné még ha az alkalmazásban lévő szelvények ugyanazokat az adatokat tartalmazzák, amelyek a papíralapú szelvényen vannak.
+
+## 5. Jelenlegi üzleti folyamatok modellje
+
+A mai világban, melyre egyre jobban jellemző a környezettudatosság, az alkalmazás kiválthatja a papír alapú sorsjegyeket, nem beszélve a nyomtatás során fellépő költségekről. 
