@@ -27,3 +27,10 @@ A mai világban, melyre egyre jobban jellemző a környezettudatosság, az alkal
 ## 6. Igényelt üzleti folyamatok modellje
 
 Azért hogy egyszerűbbé tegyük azon felhasználók életét akik szerencsejátékoznak, jelen esetben lottóznak, létrehoztunk egy olyan alkalmazást amely segítségével könnyedén tudnak különböző szelvényeket kitölteni, és feladni csupán pár kattintásból.
+
+## 7. Követelménylista
+
+| Modul  | Id | Név | Kifejtés |
+| ------------- | ------------- | ------------- | -------------|
+| Felhasználói rendszer | F1  | Szelvény választás | A felhasználók ki tudják választani az általuk kitölteni kívánt szelvényt |
+| UI | U1  | Szelvény grafikus felülete | A felhasználói grafikus felületen keresztül tudja kitölteni a szelvényt |
