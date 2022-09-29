@@ -8,3 +8,6 @@ Az alkalmazás Windows Forms típusú. A fő ablak tartalmaz 3 gombot, amelyek k
 
 ## 3. Időpont
 Az alkalmazás fejlesztése nagyjából 3 hetet vesz igénybe, azaz 2022.09.15-től 2022.10.06-ig tart.
+
+## 4. Erőforrások
+A projektet, a Visual Studio 2022-vel lesz megírva, C# nyelven .NET5.0 keretrendszerben.
