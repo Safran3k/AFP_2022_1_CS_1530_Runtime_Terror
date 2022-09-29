@@ -27,3 +27,7 @@ Az alkalmazás azon célból készült hogy kiváltsa a papír alapú szerencsej
 ## 7. Képernyőtervek
 
 ![https://i.imgur.com/5PUBKzL.png](https://i.imgur.com/5PUBKzL.png)
+
+## 8. Forgatókönyvek
+
+Vásárló szemszögéből: A vásárló bemegy a lottózóba, és a terminálon keresztül, ahol az alkalmazást látja, ki fogja tudni választani az általa kitölteni kívánt szelvényt, azt követően pedig kiválaszta az általa vélt nyerőszámokat.
