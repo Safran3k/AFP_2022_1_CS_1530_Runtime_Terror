@@ -11,3 +11,14 @@ Az alkalmazás fejlesztése nagyjából 3 hetet vesz igénybe, azaz 2022.09.15-t
 
 ## 4. Erőforrások
 A projektet, a Visual Studio 2022-vel lesz megírva, C# nyelven .NET5.0 keretrendszerben.
+
+## 5. Projektterv
+Fontosabb szerepkörök:
+
+Scrum master: Sárosi Gábor
+
+Megrendelő: Szerencsejáték Zrt.
+
+Backend: Futó Richárd, Huszka Dániel, Biesz Dávid
+
+Frontend:Futó Richárd, Huszka Dániel, Biesz Dávid
