@@ -12,3 +12,11 @@ Megrendelőnk a Szerencsejáték Zrt. szeretné népszerűsíteni a szerencsejá
 | ------------- | ------------- | ------------- | -------------|
 | Felhasználói rendszer | F1  | Szelvény választás | A felhasználók ki tudják választani az általuk kitölteni kívánt szelvényt |
 | UI | U1  | Szelvény grafikus felülete | A felhasználói grafikus felületen keresztül tudja kitölteni a szelvényt |
+
+## 4. Jelenlegi üzleti folyamatok modellje
+
+Lásd követelmény specifikáció.
+
+## 5. Igényelt üzleti folyamatok modellje
+
+Lásd követelmény specifikáció.
