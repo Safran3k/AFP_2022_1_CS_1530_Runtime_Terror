@@ -20,3 +20,6 @@ Lásd követelmény specifikáció.
 ## 5. Igényelt üzleti folyamatok modellje
 
 Lásd követelmény specifikáció.
+
+## 6. Használati esetek
+Az alkalmazás azon célból készült hogy kiváltsa a papír alapú szerencsejátékot, szem előtt tartva a környezettudatosságot illetve a szelvények gyorsabb feladását.
