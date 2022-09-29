@@ -23,3 +23,7 @@ A megrendelő szeretné még ha az alkalmazásban lévő szelvények ugyanazokat
 ## 5. Jelenlegi üzleti folyamatok modellje
 
 A mai világban, melyre egyre jobban jellemző a környezettudatosság, az alkalmazás kiválthatja a papír alapú sorsjegyeket, nem beszélve a nyomtatás során fellépő költségekről. 
+
+## 6. Igényelt üzleti folyamatok modellje
+
+Azért hogy egyszerűbbé tegyük azon felhasználók életét akik szerencsejátékoznak, jelen esetben lottóznak, létrehoztunk egy olyan alkalmazást amely segítségével könnyedén tudnak különböző szelvényeket kitölteni, és feladni csupán pár kattintásból.
