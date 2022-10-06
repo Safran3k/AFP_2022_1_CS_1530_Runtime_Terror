@@ -1,10 +1,11 @@
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\bin\Debug\LottozoRendszer.exe.config
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\bin\Debug\LottozoRendszer.exe
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\bin\Debug\LottozoRendszer.pdb
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.csproj.AssemblyReference.cache
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.Properties.Resources.resources
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.SzValasztoForm.resources
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.csproj.GenerateResource.cache
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.csproj.CoreCompileInputs.cache
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.exe
-C:\Users\Futo Richard\Desktop\Harmadik félév\Projekt labor I. gy\Projektek\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.pdb
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\bin\Debug\LottozoRendszer.exe.config
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\bin\Debug\LottozoRendszer.exe
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\bin\Debug\LottozoRendszer.pdb
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.csproj.AssemblyReference.cache
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.csproj.SuggestedBindingRedirects.cache
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.Properties.Resources.resources
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.Szelveny.resources
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.csproj.GenerateResource.cache
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.csproj.CoreCompileInputs.cache
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.exe
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.pdb
