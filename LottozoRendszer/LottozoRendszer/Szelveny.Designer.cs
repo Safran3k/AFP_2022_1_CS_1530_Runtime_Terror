@@ -57,6 +57,7 @@
             this.sorsolasBt.TabIndex = 1;
             this.sorsolasBt.Text = "Sorsolás";
             this.sorsolasBt.UseVisualStyleBackColor = true;
+            this.sorsolasBt.Click += new System.EventHandler(this.sorsolasBt_Click);
             // 
             // flowLayoutPanel1
             // 
