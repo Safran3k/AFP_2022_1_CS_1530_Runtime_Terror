@@ -88,6 +88,18 @@ namespace LottozoRendszer
 
         private void ujJatekBt_Click(object sender, EventArgs e)
         {
+            sorsolasBt.Enabled = true;
+            ujJatekBt.Enabled=false;
+
+            foreach (Control item in Controls)
+            {
+                if (item is Button && item.Name == "szamGombok")
+                {
+                    item.Enabled = true;
+                    item.ForeColor = Color.Black;
+                    item.Click += Gomb_Click;
+                }
+            }
 
         }
     }
