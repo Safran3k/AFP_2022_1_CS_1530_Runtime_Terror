@@ -41,9 +41,10 @@
             // 
             // kilepesBt
             // 
-            this.kilepesBt.Location = new System.Drawing.Point(3, 32);
+            this.kilepesBt.Location = new System.Drawing.Point(3, 41);
+            this.kilepesBt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.kilepesBt.Name = "kilepesBt";
-            this.kilepesBt.Size = new System.Drawing.Size(75, 29);
+            this.kilepesBt.Size = new System.Drawing.Size(84, 36);
             this.kilepesBt.TabIndex = 0;
             this.kilepesBt.Text = "Kilépés";
             this.kilepesBt.UseVisualStyleBackColor = true;
@@ -51,9 +52,10 @@
             // 
             // sorsolasBt
             // 
-            this.sorsolasBt.Location = new System.Drawing.Point(3, 3);
+            this.sorsolasBt.Location = new System.Drawing.Point(3, 4);
+            this.sorsolasBt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.sorsolasBt.Name = "sorsolasBt";
-            this.sorsolasBt.Size = new System.Drawing.Size(75, 23);
+            this.sorsolasBt.Size = new System.Drawing.Size(84, 29);
             this.sorsolasBt.TabIndex = 1;
             this.sorsolasBt.Text = "Sorsolás";
             this.sorsolasBt.UseVisualStyleBackColor = true;
@@ -63,59 +65,62 @@
             // 
             this.flowLayoutPanel1.Controls.Add(this.sorsolasBt);
             this.flowLayoutPanel1.Controls.Add(this.kilepesBt);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(14, 15);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(141, 379);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(159, 474);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // valasztottTextLb
             // 
             this.valasztottTextLb.AutoSize = true;
-            this.valasztottTextLb.Location = new System.Drawing.Point(294, 44);
+            this.valasztottTextLb.Location = new System.Drawing.Point(331, 55);
             this.valasztottTextLb.Name = "valasztottTextLb";
-            this.valasztottTextLb.Size = new System.Drawing.Size(112, 16);
+            this.valasztottTextLb.Size = new System.Drawing.Size(135, 20);
             this.valasztottTextLb.TabIndex = 3;
             this.valasztottTextLb.Text = "Válaszott számok";
             // 
             // nyertesTextLb
             // 
             this.nyertesTextLb.AutoSize = true;
-            this.nyertesTextLb.Location = new System.Drawing.Point(302, 12);
+            this.nyertesTextLb.Location = new System.Drawing.Point(340, 15);
             this.nyertesTextLb.Name = "nyertesTextLb";
-            this.nyertesTextLb.Size = new System.Drawing.Size(104, 16);
+            this.nyertesTextLb.Size = new System.Drawing.Size(122, 20);
             this.nyertesTextLb.TabIndex = 4;
             this.nyertesTextLb.Text = "Nyertes számok";
             // 
             // valasztottLb
             // 
             this.valasztottLb.AutoSize = true;
-            this.valasztottLb.Location = new System.Drawing.Point(412, 44);
+            this.valasztottLb.Location = new System.Drawing.Point(464, 55);
             this.valasztottLb.Name = "valasztottLb";
-            this.valasztottLb.Size = new System.Drawing.Size(79, 16);
+            this.valasztottLb.Size = new System.Drawing.Size(91, 20);
             this.valasztottLb.TabIndex = 5;
             this.valasztottLb.Text = "placeholder";
             // 
             // nyertesLb
             // 
             this.nyertesLb.AutoSize = true;
-            this.nyertesLb.Location = new System.Drawing.Point(412, 12);
+            this.nyertesLb.Location = new System.Drawing.Point(464, 15);
             this.nyertesLb.Name = "nyertesLb";
-            this.nyertesLb.Size = new System.Drawing.Size(79, 16);
+            this.nyertesLb.Size = new System.Drawing.Size(91, 20);
             this.nyertesLb.TabIndex = 6;
             this.nyertesLb.Text = "placeholder";
             // 
             // Szelveny
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(882, 403);
+            this.ClientSize = new System.Drawing.Size(992, 504);
             this.Controls.Add(this.nyertesLb);
             this.Controls.Add(this.valasztottLb);
             this.Controls.Add(this.nyertesTextLb);
             this.Controls.Add(this.valasztottTextLb);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Szelveny";
             this.Text = "Szelveny";
             this.Load += new System.EventHandler(this.Szelveny_Load);
