@@ -16,7 +16,7 @@ namespace LottozoRendszer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Szelveny());
+            Application.Run(new SzValasztoForm());
         }
     }
 }

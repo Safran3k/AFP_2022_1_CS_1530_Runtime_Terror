@@ -16,5 +16,10 @@ namespace LottozoRendszer
         {
             InitializeComponent();
         }
+
+        private void btn_OtosLotto_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

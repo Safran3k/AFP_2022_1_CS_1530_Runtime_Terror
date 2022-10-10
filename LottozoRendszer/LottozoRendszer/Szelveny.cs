@@ -12,12 +12,21 @@ namespace LottozoRendszer
 {
     public partial class Szelveny : Form
     {
-        public Szelveny()
+        int generalandoSzamokDb = 0;
+
+        public Szelveny(int darabSzam)
         {
             InitializeComponent();
+            generalandoSzamokDb = darabSzam;
         }
 
+
         private void Szelveny_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void GombokGeneralasa(int dbGomb)
         {
             Button gomb;
             int top = flowLayoutPanel1.Top + 70;
@@ -25,7 +34,7 @@ namespace LottozoRendszer
             int szelesseg = 45;
             int magassag = 40;
 
-            for (int i = 1; i <= 90; i++)
+            for (int i = 1; i <= dbGomb; i++)
             {
                 gomb = new Button();
                 gomb.Name = "szamGombok";

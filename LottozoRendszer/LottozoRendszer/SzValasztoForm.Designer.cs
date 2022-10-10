@@ -93,6 +93,7 @@ namespace LottozoRendszer
             this.btn_OtosLotto.TabIndex = 4;
             this.btn_OtosLotto.Text = "Ötöslottó";
             this.btn_OtosLotto.UseVisualStyleBackColor = false;
+            this.btn_OtosLotto.Click += new System.EventHandler(this.btn_OtosLotto_Click);
             // 
             // SzValasztoForm
             // 
@@ -116,7 +117,7 @@ namespace LottozoRendszer
         private System.Windows.Forms.Button btn_HatosLotto;
         private System.Windows.Forms.Button btn_SkandinavLotto;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btn_OtosLotto;
+        internal System.Windows.Forms.Button btn_OtosLotto;
     }
 }
 
