@@ -9,3 +9,4 @@ D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\
 D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.csproj.CoreCompileInputs.cache
 D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.exe
 D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.pdb
+D:\GitHub\AFP_2022_1_CS_1530_Runtime_Terror\LottozoRendszer\LottozoRendszer\obj\Debug\LottozoRendszer.SzValasztoForm.resources
