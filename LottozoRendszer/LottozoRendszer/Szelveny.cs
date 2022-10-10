@@ -16,5 +16,10 @@ namespace LottozoRendszer
         {
             InitializeComponent();
         }
+
+        private void Szelveny_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
