@@ -85,5 +85,10 @@ namespace LottozoRendszer
         {
             //Számgombok click eseményének helye
         }
+
+        private void ujJatekBt_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -47,6 +47,7 @@
             this.ujJatekBt.TabIndex = 0;
             this.ujJatekBt.Text = "Új játék";
             this.ujJatekBt.UseVisualStyleBackColor = true;
+            this.ujJatekBt.Click += new System.EventHandler(this.ujJatekBt_Click);
             // 
             // sorsolasBt
             // 
@@ -71,7 +72,7 @@
             this.valasztottTextLb.AutoSize = true;
             this.valasztottTextLb.Location = new System.Drawing.Point(294, 44);
             this.valasztottTextLb.Name = "valasztottTextLb";
-            this.valasztottTextLb.Size = new System.Drawing.Size(118, 17);
+            this.valasztottTextLb.Size = new System.Drawing.Size(112, 16);
             this.valasztottTextLb.TabIndex = 3;
             this.valasztottTextLb.Text = "Válaszott számok";
             // 
@@ -80,7 +81,7 @@
             this.nyertesTextLb.AutoSize = true;
             this.nyertesTextLb.Location = new System.Drawing.Point(302, 12);
             this.nyertesTextLb.Name = "nyertesTextLb";
-            this.nyertesTextLb.Size = new System.Drawing.Size(109, 17);
+            this.nyertesTextLb.Size = new System.Drawing.Size(104, 16);
             this.nyertesTextLb.TabIndex = 4;
             this.nyertesTextLb.Text = "Nyertes számok";
             // 
@@ -89,7 +90,7 @@
             this.valasztottLb.AutoSize = true;
             this.valasztottLb.Location = new System.Drawing.Point(412, 44);
             this.valasztottLb.Name = "valasztottLb";
-            this.valasztottLb.Size = new System.Drawing.Size(82, 17);
+            this.valasztottLb.Size = new System.Drawing.Size(79, 16);
             this.valasztottLb.TabIndex = 5;
             this.valasztottLb.Text = "placeholder";
             // 
@@ -98,7 +99,7 @@
             this.nyertesLb.AutoSize = true;
             this.nyertesLb.Location = new System.Drawing.Point(412, 12);
             this.nyertesLb.Name = "nyertesLb";
-            this.nyertesLb.Size = new System.Drawing.Size(82, 17);
+            this.nyertesLb.Size = new System.Drawing.Size(79, 16);
             this.nyertesLb.TabIndex = 6;
             this.nyertesLb.Text = "placeholder";
             // 
