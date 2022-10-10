@@ -16,20 +16,5 @@ namespace LottozoRendszer
         {
             InitializeComponent();
         }
-
-        private void kilepesBt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void sorsolasBt_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Szelveny_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
