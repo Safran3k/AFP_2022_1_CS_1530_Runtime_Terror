@@ -23,7 +23,26 @@ namespace LottozoRendszer
 
         private void Szelveny_Load(object sender, EventArgs e)
         {
-            
+            switch (generalandoSzamokDb)
+            {
+                case 90: // Ötöslottó (90 szám - 5 választható)
+                    GombokGeneralasa(generalandoSzamokDb);
+                    break;
+                case 45: // Hatoslottó (45 szám - 6 választható)
+                    GombokGeneralasa(generalandoSzamokDb);
+                    break;
+                case 35: // Skandinávlottó (35 szám - 7 választható)
+                    GombokGeneralasa(generalandoSzamokDb);
+                    break;
+                default:
+                    MessageBox.Show(
+                        "Hiba történt a számok generálása közben.",
+                        "Hiba",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error
+                        );
+                    break;
+            }
         }
 
         private void GombokGeneralasa(int dbGomb)

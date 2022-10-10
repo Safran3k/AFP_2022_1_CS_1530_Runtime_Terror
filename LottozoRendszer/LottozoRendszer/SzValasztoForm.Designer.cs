@@ -58,6 +58,7 @@ namespace LottozoRendszer
             this.btn_HatosLotto.TabIndex = 2;
             this.btn_HatosLotto.Text = "Hatoslottó";
             this.btn_HatosLotto.UseVisualStyleBackColor = false;
+            this.btn_HatosLotto.Click += new System.EventHandler(this.btn_HatosLotto_Click);
             // 
             // btn_SkandinavLotto
             // 
@@ -69,6 +70,7 @@ namespace LottozoRendszer
             this.btn_SkandinavLotto.TabIndex = 3;
             this.btn_SkandinavLotto.Text = "Skandináv";
             this.btn_SkandinavLotto.UseVisualStyleBackColor = false;
+            this.btn_SkandinavLotto.Click += new System.EventHandler(this.btn_SkandinavLotto_Click);
             // 
             // panel1
             // 
