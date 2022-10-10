@@ -47,7 +47,15 @@ namespace LottozoRendszer
                 {
                     left += szelesseg + 5;
                 }
+
+                gomb.Click += Gomb_Click;
+                ujJatekBt.Enabled = false;
             }
+        }
+
+        private void Gomb_Click(object sender, EventArgs e)
+        {
+            //Számgombok click eseményének helye
         }
     }
 }
