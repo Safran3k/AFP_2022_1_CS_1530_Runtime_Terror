@@ -133,7 +133,7 @@ namespace LottozoRendszer
 
         private void sorsolasBt_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
