@@ -108,6 +108,7 @@ namespace LottozoRendszer
             this.Name = "SzValasztoForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Szelvény választás";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SzValasztoForm_FormClosing);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

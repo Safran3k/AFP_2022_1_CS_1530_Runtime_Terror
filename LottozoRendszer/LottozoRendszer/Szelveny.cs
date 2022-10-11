@@ -18,6 +18,7 @@ namespace LottozoRendszer
         public Szelveny(int darabSzam)
         {
             InitializeComponent();
+            MaximizeBox = false;
             generalandoSzamokDb = darabSzam;
         }
 
@@ -57,8 +58,8 @@ namespace LottozoRendszer
         private void GombokGeneralasa(int dbGomb)
         {
             Button gomb;
-            int top = flowLayoutPanel1.Top + 70;
-            int left = flowLayoutPanel1.Right + 30;
+            int top = panel1.Top + 70;
+            int left = panel1.Right + 30;
             int szelesseg = 45;
             int magassag = 40;
 
@@ -78,7 +79,7 @@ namespace LottozoRendszer
                 if (i % 10 == 0)
                 {
                     top += magassag + 5;
-                    left = flowLayoutPanel1.Right + 30;
+                    left = panel1.Right + 30;
                 }
                 else
                 {
@@ -118,11 +119,18 @@ namespace LottozoRendszer
             return jeloltek;
         }
 
-
         private void ujJatekBt_Click(object sender, EventArgs e)
         {
             sorsolasBt.Enabled = true;
             ujJatekBt.Enabled = false;
+
+            nyertesTextLb.Visible = true;
+            nyertesLb.Text = "";
+            nyertesLb.Visible = true;
+
+            valasztottTextLb.Visible = true;
+            valasztottLb.Text = "";
+            valasztottLb.Visible = true;
 
             foreach (Control item in Controls)
             {
@@ -150,6 +158,7 @@ namespace LottozoRendszer
             {
                 int[] sorsoltSzamok = new int[valaszthatoSzamok];
                 int[] valasztottSzamok = new int[valaszthatoSzamok];
+
                 Random rnd = new Random();
                 int i = 0;
                 while (i != valaszthatoSzamok)
@@ -199,6 +208,19 @@ namespace LottozoRendszer
             else
             {
                 MessageBox.Show("Nem elegendő számot jelölt ki!", "Figyelem!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void Szelveny_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            SzValasztoForm ujAblak = new SzValasztoForm();
+
+            if (DialogResult.Yes == MessageBox.Show("Bezárja az ablakot?", "Bezárás", MessageBoxButtons.YesNo))
+            {
+                Hide();
+                ujAblak.ShowDialog();
+                Dispose();
+                Close();
             }
         }
     }
