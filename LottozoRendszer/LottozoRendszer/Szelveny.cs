@@ -85,7 +85,7 @@ namespace LottozoRendszer
         {
             if (sender is Button)
             {
-                if ((sender as Button).ForeColor == Color.Black)
+                if ((sender as Button).ForeColor == Color.Black && JeloltGombokSzama() < 5)
                 {
                     (sender as Button).ForeColor = Color.Red;
                 }
@@ -94,6 +94,19 @@ namespace LottozoRendszer
                     (sender as Button).ForeColor = Color.Black;
                 }
             }
+        }
+
+        private byte JeloltGombokSzama()
+        {
+            byte jeloltek = 0;
+            foreach (Control item in Controls)
+            {
+                if (item is Button && item.Name == "szamGombok" && item.ForeColor == Color.Red )
+                {
+                    jeloltek++;
+                }
+            }
+            return jeloltek;
         }
 
 
