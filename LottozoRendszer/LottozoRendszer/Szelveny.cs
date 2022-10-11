@@ -133,7 +133,10 @@ namespace LottozoRendszer
 
         private void sorsolasBt_Click(object sender, EventArgs e)
         {
-            
+            //TODO: Megfelelő helyre a megfelelő paraméterekkel beírni az alábbi két sort     
+
+            //FajlKezelo sorsol = new FajlKezelo(nyeroSzamok, valasztottSzamok);
+            //sorsol.FajlbaIras();
         }
     }
 }
