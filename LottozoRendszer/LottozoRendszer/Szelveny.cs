@@ -137,6 +137,50 @@ namespace LottozoRendszer
 
             //FajlKezelo sorsol = new FajlKezelo(nyeroSzamok, valasztottSzamok);
             //sorsol.FajlbaIras();
+
+            if (JeloltGombokSzama() == valaszthatoSzamok)
+            {
+                int[] sorsoltSzamok = new int[valaszthatoSzamok];
+                Random rnd = new Random();
+                for (int i = 0; i < sorsoltSzamok.Length; i++)
+                {
+                    int szam = 0;
+
+                    do
+                    {
+                        szam = rnd.Next(1, generalandoSzamokDb + 1);
+                    } while (sorsoltSzamok.Contains(szam));
+
+                }
+                foreach(Control item in Controls)
+                {
+                    if (item is Button && item.Name == "szamGombok")
+                    {
+                        if (sorsoltSzamok.Contains(generalandoSzamokDb))
+                        {
+                            if (item.ForeColor == Color.Black)
+                            {
+                                item.ForeColor = Color.Blue;
+                            }
+                            else
+                            {
+                                item.ForeColor = Color.Green;
+                            }
+                        }
+                        else
+                        {
+                            item.Enabled = false;
+                        }
+                        item.Click -= Gomb_Click;
+                    }
+                }
+                sorsolasBt.Enabled = true;
+                ujJatekBt.Enabled = true;
+            }
+            else
+            {
+                MessageBox.Show("Nem elegendő számot jelölt ki!", "Figyelem!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }
