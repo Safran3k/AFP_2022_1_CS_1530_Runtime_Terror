@@ -137,12 +137,7 @@ namespace LottozoRendszer
         }
 
         private void sorsolasBt_Click(object sender, EventArgs e)
-        {
-            //TODO: Megfelelő helyre a megfelelő paraméterekkel beírni az alábbi két sort     
-
-            //FajlKezelo sorsol = new FajlKezelo(nyeroSzamok, valasztottSzamok);
-            //sorsol.FajlbaIras();
-
+        {  
             nyertesLb.Visible = true;
             nyertesTextLb.Visible = true;
             valasztottLb.Visible = true;
@@ -196,6 +191,10 @@ namespace LottozoRendszer
                 }
                 sorsolasBt.Enabled = false;
                 ujJatekBt.Enabled = true;
+
+
+                FajlKezelo sorsol = new FajlKezelo(sorsoltSzamok, valasztottSzamok);
+                sorsol.FajlbaIras();
             }
             else
             {

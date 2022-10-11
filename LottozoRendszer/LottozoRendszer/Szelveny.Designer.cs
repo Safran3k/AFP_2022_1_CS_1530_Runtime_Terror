@@ -91,9 +91,8 @@
             this.valasztottLb.AutoSize = true;
             this.valasztottLb.Location = new System.Drawing.Point(412, 44);
             this.valasztottLb.Name = "valasztottLb";
-            this.valasztottLb.Size = new System.Drawing.Size(79, 16);
+            this.valasztottLb.Size = new System.Drawing.Size(0, 16);
             this.valasztottLb.TabIndex = 5;
-            this.valasztottLb.Text = "placeholder";
             // 
             // nyertesLb
             // 
