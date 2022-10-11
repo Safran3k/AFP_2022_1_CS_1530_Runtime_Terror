@@ -13,6 +13,7 @@ namespace LottozoRendszer
     public partial class Szelveny : Form
     {
         int generalandoSzamokDb = 0;
+        byte valaszthatoSzamok = 0;
 
         public Szelveny(int darabSzam)
         {
@@ -27,12 +28,15 @@ namespace LottozoRendszer
             {
                 case 90: // Ötöslottó (90 szám - 5 választható)
                     GombokGeneralasa(generalandoSzamokDb);
+                    valaszthatoSzamok = 5;
                     break;
                 case 45: // Hatoslottó (45 szám - 6 választható)
                     GombokGeneralasa(generalandoSzamokDb);
+                    valaszthatoSzamok = 6;
                     break;
                 case 35: // Skandinávlottó (35 szám - 7 választható)
                     GombokGeneralasa(generalandoSzamokDb);
+                    valaszthatoSzamok = 7;
                     break;
                 default:
                     MessageBox.Show(
@@ -85,7 +89,7 @@ namespace LottozoRendszer
         {
             if (sender is Button)
             {
-                if ((sender as Button).ForeColor == Color.Black && JeloltGombokSzama() < 5)
+                if ((sender as Button).ForeColor == Color.Black && JeloltGombokSzama() < valaszthatoSzamok)
                 {
                     (sender as Button).ForeColor = Color.Red;
                 }
