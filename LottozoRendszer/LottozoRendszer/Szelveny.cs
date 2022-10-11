@@ -24,6 +24,11 @@ namespace LottozoRendszer
 
         private void Szelveny_Load(object sender, EventArgs e)
         {
+            nyertesLb.Visible = false;
+            nyertesTextLb.Visible = false;
+            valasztottLb.Visible = false;
+            valasztottTextLb.Visible = false;
+
             switch (generalandoSzamokDb)
             {
                 case 90: // Ötöslottó (90 szám - 5 választható)
@@ -105,7 +110,7 @@ namespace LottozoRendszer
             byte jeloltek = 0;
             foreach (Control item in Controls)
             {
-                if (item is Button && item.Name == "szamGombok" && item.ForeColor == Color.Red )
+                if (item is Button && item.Name == "szamGombok" && item.ForeColor == Color.Red)
                 {
                     jeloltek++;
                 }
@@ -117,7 +122,7 @@ namespace LottozoRendszer
         private void ujJatekBt_Click(object sender, EventArgs e)
         {
             sorsolasBt.Enabled = true;
-            ujJatekBt.Enabled=false;
+            ujJatekBt.Enabled = false;
 
             foreach (Control item in Controls)
             {
@@ -138,43 +143,58 @@ namespace LottozoRendszer
             //FajlKezelo sorsol = new FajlKezelo(nyeroSzamok, valasztottSzamok);
             //sorsol.FajlbaIras();
 
+            nyertesLb.Visible = true;
+            nyertesTextLb.Visible = true;
+            valasztottLb.Visible = true;
+            valasztottTextLb.Visible = true;
+            nyertesLb.Text = "";
+            valasztottLb.Text = "";
+
+
             if (JeloltGombokSzama() == valaszthatoSzamok)
             {
                 int[] sorsoltSzamok = new int[valaszthatoSzamok];
+                int[] valasztottSzamok = new int[valaszthatoSzamok];
                 Random rnd = new Random();
-                for (int i = 0; i < sorsoltSzamok.Length; i++)
+                int i = 0;
+                while (i != valaszthatoSzamok)
                 {
-                    int szam = 0;
-
-                    do
+                    int number = rnd.Next(1, generalandoSzamokDb + 1);
+                    if (!sorsoltSzamok.Contains(number))
                     {
-                        szam = rnd.Next(1, generalandoSzamokDb + 1);
-                    } while (sorsoltSzamok.Contains(szam));
-
+                        sorsoltSzamok[i] = number;
+                        nyertesLb.Text += (number + " ");
+                        i++;
+                    }
                 }
-                foreach(Control item in Controls)
+                int j = 0;
+                foreach (Control item in Controls)
                 {
                     if (item is Button && item.Name == "szamGombok")
                     {
-                        if (sorsoltSzamok.Contains(generalandoSzamokDb))
+                        if (item.ForeColor == Color.Red)
                         {
-                            if (item.ForeColor == Color.Black)
-                            {
-                                item.ForeColor = Color.Blue;
-                            }
-                            else
-                            {
-                                item.ForeColor = Color.Green;
-                            }
+                            valasztottSzamok[j] = int.Parse(item.Text);
+                            valasztottLb.Text += (valasztottSzamok[j] + " ");
+                            j++;
                         }
-                        else
+                        if (sorsoltSzamok.Contains(int.Parse(item.Text)) && valasztottSzamok.Contains(int.Parse(item.Text)))
                         {
-                            item.Enabled = false;
+                            item.ForeColor = Color.Green;
+                        }
+                        else if (!sorsoltSzamok.Contains(int.Parse(item.Text)) && valasztottSzamok.Contains(int.Parse(item.Text)))
+                        {
+                            item.ForeColor = Color.Blue;
+                        }
+                        else if(sorsoltSzamok.Contains(int.Parse(item.Text)) && !valasztottSzamok.Contains(int.Parse(item.Text)))
+                        {
+                            item.ForeColor = Color.Red;
                         }
                         item.Click -= Gomb_Click;
                     }
+
                 }
-                sorsolasBt.Enabled = true;
+                sorsolasBt.Enabled = false;
                 ujJatekBt.Enabled = true;
             }
             else

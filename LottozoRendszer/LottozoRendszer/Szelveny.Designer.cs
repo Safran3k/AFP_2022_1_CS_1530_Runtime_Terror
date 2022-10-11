@@ -100,9 +100,8 @@
             this.nyertesLb.AutoSize = true;
             this.nyertesLb.Location = new System.Drawing.Point(412, 12);
             this.nyertesLb.Name = "nyertesLb";
-            this.nyertesLb.Size = new System.Drawing.Size(79, 16);
+            this.nyertesLb.Size = new System.Drawing.Size(0, 16);
             this.nyertesLb.TabIndex = 6;
-            this.nyertesLb.Text = "placeholder";
             // 
             // Szelveny
             // 
