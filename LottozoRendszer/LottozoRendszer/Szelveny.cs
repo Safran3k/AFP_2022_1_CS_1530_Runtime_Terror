@@ -83,8 +83,19 @@ namespace LottozoRendszer
 
         private void Gomb_Click(object sender, EventArgs e)
         {
-            //Számgombok click eseményének helye
+            if (sender is Button)
+            {
+                if ((sender as Button).ForeColor == Color.Black)
+                {
+                    (sender as Button).ForeColor = Color.Red;
+                }
+                else if ((sender as Button).ForeColor == Color.Red)
+                {
+                    (sender as Button).ForeColor = Color.Black;
+                }
+            }
         }
+
 
         private void ujJatekBt_Click(object sender, EventArgs e)
         {
