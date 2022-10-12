@@ -215,7 +215,7 @@ namespace LottozoRendszer
         {
             SzValasztoForm ujAblak = new SzValasztoForm();
 
-            if (DialogResult.Yes == MessageBox.Show("Bezárja az ablakot?", "Bezárás", MessageBoxButtons.YesNo))
+            if (DialogResult.Yes == MessageBox.Show("Bezárja az ablakot?", "Bezárás", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
             {
                 Hide();
                 ujAblak.ShowDialog();
