@@ -222,6 +222,10 @@ namespace LottozoRendszer
                 Dispose();
                 Close();
             }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }
